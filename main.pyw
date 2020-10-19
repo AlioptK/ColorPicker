@@ -11,7 +11,7 @@ def get_pixel_colour(i_x, i_y):
     return (i_colour & 0xff), ((i_colour >> 8) & 0xff), ((i_colour >> 16) & 0xff)
 
 def rgb_to_hex(rgb):
-    return '#%02x%02x%02x'
+    return '#%02x%02x%02x' % rgb
 
 if __name__ == '__main__':
     time.sleep(2)
